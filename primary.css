@@ -1,0 +1,110 @@
+body
+{
+overflow: hidden;
+background-color: black;
+background-image: url("background9.jpeg");
+}
+@media only screen and (min-width: 1000px) {
+body
+{
+overflow: hidden;
+background-color: black;
+}
+.navbar
+{
+position: fixed;
+height: 10%;
+width: 100%;
+background-color: black;
+display: block;
+left: 0;
+top: 0;
+border-bottom: 5px solid #00047D;
+padding-left: 2%;
+}
+.navlogo
+{
+position: relative;
+width: 1%;
+color: white;
+text-decoration: none;
+font-size: 1vw;
+}
+.navbutton
+{
+position: relative;
+background: transparent;
+border: none;
+left: 60%;
+bottom: 5%;
+transition: .2s;
+}
+.navbutton:hover
+{
+background-color: #2E2E2E;
+transition: .2s;
+}
+.mainbutton
+{
+font-size: 5px;
+background: transparent;
+border: none;
+}
+.gamebutton
+{
+position: fixed;
+top: 20%;
+color: white;
+background: none;
+border: 2px solid white;
+padding: 20px;
+z-index: 2;
+}
+}
+@media only screen and (max-width: 980px) 
+{
+body
+{
+overflow: hidden;
+background-color: black;
+}
+.navbar
+{
+position: fixed;
+height: 6%;
+width: 100%;
+background-color: black;
+top: 0;
+left: 0;
+border-bottom: 2px solid #00047D;
+}
+.navlogo
+{
+position: relative;
+width: 1%;
+color: white;
+text-decoration: none;
+font-size: 1.8vw;
+}
+.navbutton
+{
+position: relative;
+background: transparent;
+border: none;
+left: 40%;
+bottom: 5%;
+transition: .2s;
+}
+.navbutton:hover
+{
+background-color: #00047D;
+transition: .2s;
+}
+.mainbutton
+{
+font-size: 5px;
+background: transparent;
+border: none;
+}
+
+}
