@@ -73,10 +73,10 @@ font-size: 3vw;
 .indexcontent
   {
     position: fixed;
-    top: 30%;
+    top: 35%;
   color: white;
     font-size: 2vw;
-    width: 40%;
+    width: 50%;
     left: 30%;
   }
 }
