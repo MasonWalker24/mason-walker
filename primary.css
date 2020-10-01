@@ -134,13 +134,14 @@ border: none;
 .gamebutton
 {
 position: fixed;
-top: 15%;
+top: 10%;
 color: white;
 background: none;
 border: 2px solid white;
-padding: 45px;
+padding: 56px;
 z-index: 2;
-font-size: 3vw;
+font-size: 5vw;
+left: 2%;
 }
 .indexheader
   {
