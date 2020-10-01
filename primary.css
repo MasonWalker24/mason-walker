@@ -101,6 +101,7 @@ font-size: 3vw;
   .indexbutton
   {
     position: relative;
+    top: 0;
     left: 45%;
     padding: 2%;
     width: 15%;
