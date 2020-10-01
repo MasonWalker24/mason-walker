@@ -20,7 +20,7 @@ display: block;
 left: 0;
 top: 0;
 border-bottom: 5px solid #00047D;
-padding-left: 10%;
+
 }
 .navlogo
 {
@@ -35,7 +35,7 @@ font-size: 1vw;
 position: relative;
 background: transparent;
 border: none;
-left: 55%;
+left: 52%;
 bottom: 5%;
 transition: .2s;
 border: 1px solid white;
