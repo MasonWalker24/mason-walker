@@ -35,9 +35,10 @@ font-size: 1vw;
 position: relative;
 background: transparent;
 border: none;
-left: 60%;
+left: 45%;
 bottom: 5%;
 transition: .2s;
+border: 1px solid white;
 }
 .navbutton:hover
 {
