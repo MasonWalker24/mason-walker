@@ -68,7 +68,16 @@ font-size: 3vw;
   color: white;
     font-size: 3vw;
     width: 40%;
-    left: 20%;
+    left: 30%;
+  }
+.indexcontent
+  {
+    position: fixed;
+    top: 30%;
+  color: white;
+    font-size: 2vw;
+    width: 40%;
+    left: 30%;
   }
 }
 @media only screen and (max-width: 980px) 
