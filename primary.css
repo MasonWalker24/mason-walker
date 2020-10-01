@@ -68,6 +68,7 @@ font-size: 3vw;
   color: white;
     font-size: 3vw;
     width: 40%;
+    left: 20%;
   }
 }
 @media only screen and (max-width: 980px) 
