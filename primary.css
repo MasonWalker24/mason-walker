@@ -118,6 +118,15 @@ font-size: 3vw;
     color: black;
     transition: .3s;
   }
+  .widgetlist
+  {
+   position: fixed;
+   color: white;
+   font-size: 2vw;
+   top: 20%;
+   left: 40%;
+    margin-top: 10%;
+  }
 }
 @media only screen and (max-width: 980px) 
 {
