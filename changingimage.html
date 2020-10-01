@@ -1,1 +1,46 @@
-
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+  <script data-ad-client="ca-pub-3321053919877037" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link href="primary.css" rel="stylesheet">
+<title>Mason Walker</title>
+</head>
+<body>
+<div class="navbar">
+<button class="mainbutton"><a href="index.html" class="navlogo"><h1>Mason Walker</h1></a></button>
+<button class="navbutton"><a href="about.html" class="navlogo"><h2>About Me</h2></a></button>
+<button class="navbutton"><a href="https://www.fiverr.com/share/8ypZWV" class="navlogo"><h2>Order</h2></a></button>
+<button class="navbutton"><a href="games.html" class="navlogo"><h2>Games</h2></a></button>
+<button class="navbutton"><a href="sites.html" class="navlogo"><h2>Websites</h2></a></button>
+</div>
+  <img src="" class="changebanner" id="img1">
+  <img src="" class="changebanner" id="img2">
+  <img src="" class="changebanner" id="img3">
+ </body>
+  <script>
+setInterval(start, 2)
+var img = 1;
+function start()
+{
+if (img == 1)
+{
+document.getElementById("img3").style.width = "0%";
+document.getElementById("img1").style.width = "100%";
+setTimeout(function(){ img = 2 }, 5000);
+}
+if (img == 2)
+{
+document.getElementById("img1").style.width = "0%";
+document.getElementById("img2").style.width = "100%";
+setTimeout(function(){ img = 3 }, 5000);
+}
+if (img == 3)
+{
+document.getElementById("img2").style.width = "0%";
+document.getElementById("img3").style.width = "100%";
+setTimeout(function(){ img = 1 }, 5000);
+}
+}
+</script>
+</html>
