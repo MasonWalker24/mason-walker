@@ -26,17 +26,11 @@ if (img == 1)
 {
 document.getElementById("img3").style.width = "0%";
 document.getElementById("img1").style.width = "100%";
-setTimeout(function(){ img = 2 }, 5000);
-}
-if (img == 2)
-{
-document.getElementById("img1").style.width = "0%";
-document.getElementById("img2").style.width = "100%";
 setTimeout(function(){ img = 3 }, 5000);
 }
 if (img == 3)
 {
-document.getElementById("img2").style.width = "0%";
+document.getElementById("img1").style.width = "0%";
 document.getElementById("img3").style.width = "100%";
 setTimeout(function(){ img = 1 }, 5000);
 }
