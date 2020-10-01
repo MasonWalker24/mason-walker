@@ -61,6 +61,14 @@ padding: 45px;
 z-index: 2;
 font-size: 3vw;
 }
+.indexheader
+  {
+    position: fixed;
+    top: 25%;
+  color: white;
+    font-size: 3vw;
+    width: 40%;
+  }
 }
 @media only screen and (max-width: 980px) 
 {
