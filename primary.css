@@ -53,11 +53,11 @@ border: none;
 .gamebutton
 {
 position: fixed;
-top: 20%;
+top: 50%;
 color: white;
 background: none;
 border: 2px solid white;
-padding: 20px;
+padding: 60px;
 z-index: 2;
 }
 }
