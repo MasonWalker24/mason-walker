@@ -116,7 +116,7 @@ font-size: 1.8vw;
 position: relative;
 background: transparent;
 border: none;
-left: 40%;
+left: 30%;
 bottom: 5%;
 transition: .2s;
 }
@@ -147,7 +147,7 @@ font-size: 3vw;
     position: fixed;
     top: 25%;
   color: white;
-    font-size: 3vw;
+    font-size: 5vw;
     width: 40%;
     left: 30%;
   }
@@ -156,7 +156,7 @@ font-size: 3vw;
     position: fixed;
     top: 35%;
   color: white;
-    font-size: 2vw;
+    font-size: 3.5vw;
     width: 60%;
     left: 20%;
   }
