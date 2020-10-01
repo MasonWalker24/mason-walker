@@ -158,6 +158,10 @@ border-radius: 5%;
     font-size: 5vw;
     padding-left: 35%;
   }
+  .overlaycontent
+  {
+   font-size: 2vw; 
+  }
 }
 @media only screen and (max-width: 980px) 
 {
