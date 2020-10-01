@@ -84,7 +84,7 @@ font-size: 3vw;
   {
    position: fixed;
    color: white;
-   font-size: 1.8vw;
+   font-size: 2vw;
    top: 20%;
    left: 45%;
   }
@@ -134,5 +134,41 @@ font-size: 5px;
 background: transparent;
 border: none;
 }
-
+.gamebutton
+{
+position: fixed;
+top: 15%;
+color: white;
+background: none;
+border: 2px solid white;
+padding: 45px;
+z-index: 2;
+font-size: 3vw;
+}
+.indexheader
+  {
+    position: fixed;
+    top: 25%;
+  color: white;
+    font-size: 3vw;
+    width: 40%;
+    left: 30%;
+  }
+.indexcontent
+  {
+    position: fixed;
+    top: 35%;
+  color: white;
+    font-size: 2vw;
+    width: 60%;
+    left: 20%;
+  }
+.sitelist
+  {
+   position: fixed;
+   color: white;
+   font-size: 2vw;
+   top: 20%;
+   left: 45%;
+  }
 }
